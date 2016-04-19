@@ -44,7 +44,7 @@
 				<a href="#"><font class="iconfont">&#xe60b;</font>登录</a>
 				<a href="#"><font class="iconfont">&#xe60e;</font>注册</a>
 				-->
-			<span class="Top_c_text">您好，wlm123, 欢迎您回来！ <a href="#" class="atext">登录</a>&nbsp | &nbsp<a href="#" class="atext">注册</a></span> <a href="#" class="color"><font class="iconfont">&#xe60e;</font> 加入购物车</a>
+			<span class="Top_c_text">您好，wlm123, 欢迎您回来！ <a href="#" class="atext">用户中心</a>&nbsp | &nbsp<a href="#" class="atext">退出</a></span> <a href="#" class="color"><font class="iconfont">&#xe63e;</font> 加入购物车</a>
 		</div>
 	</div>
    <!--网站头部LOGO,search,导购开始-->
