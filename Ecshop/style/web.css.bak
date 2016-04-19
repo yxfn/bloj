@@ -1,0 +1,157 @@
+/*内页推荐样式 webIntro */
+body,div,span,p,i,a,table,dl,dt,dd,ul,li,ol,img,h1,h2,h3,h4{margin:0px;padding:0px;}
+img{border:0px;}
+li{list-style:none;}
+a{text-decoration:none;color:#000;font-size:12px;}
+input{outline:none;border:none;}
+body{font-family:"Microsoft YaHei";background:#fff;}
+/*!--webIntro开始--*/
+#webIntro{width:100%;height:170px;background:#f1f1f1;}
+#webIntro .web_content{width:1200px;height:170px;margin:0 auto;}
+#webIntro .web_content .web_left{width:950px;height:170px;float:left;position:relative;}
+#webIntro .web_content .web_left .web_left_con{width:880px;height:170px;float:right;position:absolute;top:0px;right:0px;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con{width:244px;height:115px;background:#fff;margin:18px 10px 0;padding:10px;box-shadow:0px 2px 3px #ddd;float:left;margin-right:18px;position:relative;top:0px;transition:.1s all;cursor:pointer;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con:hover{top:-3px;transition:.1s all;box-shadow:0px 2px 3px #999;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dt.h_m_dt{width:110px;height:86px;padding-top:10px;float:left;margin-right:5px;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dd{font:12px/20px "Microsoft YaHei";color:#666;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dd.h_m_dd{margin:7px 0 12px 0;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dd.h_m_dd span{font-size:16px;color:#f5527a;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dd a.btncon{width:77px;display:block;border:1px solid #e6e6e6;float:right;line-height:25px;text-align:center;margin-right:49px;border-radius:3px;color:#797979;}
+#webIntro .web_content .web_left .web_left_con dl.h_m_con dd a.btncon:hover{transition:.1s all;border:1px solid #f42760;color:#f42760;}
+#webIntro .web_content .web_right{width:220px;height:170px;float:right;}
+#webIntro .web_content .web_right img{float:left;}
+#webIntro .web_content .web_right ol{width:165px;height:170px;float:right;padding-top:10px;}
+#webIntro .web_content .web_right ol li{font:12px/30px "Microsoft YaHei";}
+#webIntro .web_content .web_right ol li a{color:#666;}
+#webIntro .web_content .web_right ol li a:hover{color:#f42760;}
+/*!--webIntro结束--*/
+/*!--webmain开始--*/
+#webmain{width:1202px;margin:0 auto;}
+#webmain h3.webmain_title{font:14px/55px "Microsoft YaHei";border-bottom:1px solid #ddd;}
+#webmain h3.webmain_title a{color:#666;}
+#webmain h3.webmain_title a:hover{color:#f42760;}
+/*公用样式*/
+#webmain h3.com{font:16px/40px "Microsoft YaHei";color:#f42760;background:#f5f5f5;border-bottom:1px solid #ddd;text-indent:10px;font-weight:600;}
+/*公用样式*/
+/*!--#webcon_form开始--*/
+#webcon_form{width:1200px;margin-top:30px;border:1px solid #ddd;}
+#webcon_form dl.webcon_form_con{width:95%;height:40px;margin:0 auto;padding:5px 0px;border-bottom:1px dotted #ddd;line-height:42px;}
+#webcon_form dl.nocon{border-bottom:none;margin-bottom:5px;}
+#webcon_form dt.webcon_form_txt{width:8%;float:left;color:#666;font-weight:bold;font-size:14px;}
+#webcon_form dd.webcon_form_rtext{width:91%;height:40px;font-size:12px;float:right;}
+#webcon_form dd.webcon_form_rtext a{padding:5px 8px;color:#666;margin-left:10px;}
+#webcon_form dd.webcon_form_rtext a:hover{background:#f53e6d;color:#fff;}
+#webcon_form dd.webcon_form_rtext a.all{background:#f53e6d;color:#fff;}
+/*!--#webcon_form结束--*/
+/*!--web_infoion开始--*/
+#web_infoion{width:1200px;margin-top:30px;position:relative;}
+#web_infoion h3.web_infoion_title{border:1px solid #ddd;}
+#web_infoion ul li{width:208px;height:308px;margin:10px 16px 15px 14px;text-align:center;border:1px solid #ddd;box-shadow:0px 2px 5px #ddd;cursor:pointer;float:left;}
+#web_infoion ul li p{font-size:14px;line-height:40px;color:#333;}
+#web_infoion ul li p.pur{width:160px;height:25px;margin:0 auto;line-height:25px;}
+#web_infoion ul li p.pur span,#web_infoion ul li p.pur a{display:block;width:80px;height:25px;text-align:center;color:#fff;}
+#web_infoion ul li p.pur span{background:#626262;float:left;}
+#web_infoion ul li p.pur a{background:#ed145b;float:right;}
+#web_infoion ul li p.txt{font-size:12px;line-height:40px;color:#666;}
+#web_infoion ul li p.txt font{color:#f42760;font-size:12px;}
+/*!--web_infoion结束--*/
+/*!--webmain结束--*/
+/*webmagn开始*/
+#webmagn{width:1200px;height:540px;margin:30px auto 0;}
+#webmagn .webmagn_con{width:450px;height:540px;float:left;position:relative;}
+#webmagn .webmagn_con .simg{width:450px;height:450px;position:relative;}
+#webmagn .webmagn_con .simg .move{width:80px;height:100px;background:#fff;position:absolute;top:0px;left:0px;display:block;border:1px solid #999;display:none;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;}
+#webmagn .webmagn_con .simg .shade{width:450px;height:450px;background:#f00;filter:alpha(opacity=0);-moz-opacity:0.0;opacity:0.0;display:block;position:absolute;top:0px;left:0px;}
+/*放大镜导航开始*/
+#webmagn .webmagn_con .btn{height:80px;margin-top:10px;}
+#webmagn .webmagn_con .btn img{border:2px solid #ddd;display:block;float:left;margin-left:15px;cursor:pointer;transition:.3s all;	}
+#webmagn .webmagn_con .btn img.active{border:2px solid #f60;transition:.3s all;}
+/*放大镜导航结束*/
+/*放大镜大图开始*/
+#webmagn .webmagn_con .bimg{width:450px;height:450px;position:absolute;top:0px;left:460px;background:#f00;overflow:hidden;display:none;}
+#webmagn .webmagn_con .bimg img{position:absolute;}
+/*放大镜大图结束*/
+/*webmagn_ProductXq开始*/
+#webmagn .webmagn_ProductXq{width:690px;height:540px;float:right;}
+#webmagn .webmagn_ProductXq ul h3{font:16px/20px "Microsoft YaHei";color:#f42760;font-weight:bold;}
+#webmagn .webmagn_ProductXq ul li.text_1{height:25px;margin-top:10px;color:#666;font-size:14px;line-height:25px;}
+#webmagn .webmagn_ProductXq ul li p.txt_l{float:left;width:49%;}
+#webmagn .webmagn_ProductXq ul li p.txt_1{float:left;width:49%;}
+#webmagn .webmagn_ProductXq ul li p.txt_2 {border-bottom:1px dotted #ddd;line-height:30px;}
+#webmagn .webmagn_ProductXq ul li p.txt_2 span{color:#f42760;}
+#webmagn .webmagn_ProductXq ul li.text_2{width:370px;height:170px;margin:15px 0 10px 0;padding:0px 10px;border:1px dotted #ddd;background:#f8f7f7;}
+#webmagn .webmagn_ProductXq ul li.text_2 h3.text_2{font:14px/30px "Microsoft YaHei";font-weight:bold;border-bottom:1px solid #ddd;text-align:center;}
+#webmagn .webmagn_ProductXq ul li.text_2 p{width:100%;height:30px;line-height:30px;margin:0 auto;text-align:center;}
+#webmagn .webmagn_ProductXq ul li.text_2 p span{width:49%;height:30px;display:block;float:left;font-size:14px;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.fomr_con{height:30px;border:1px solid #ddd;border-bottom:none;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.fomr_con span{color:#f42760;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.fomr_con .fomr_1{border-right:1px solid #ddd;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.com{border-bottom:1px solid #ddd;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.fomr_con_2{width:160px;height:30px;float:right;margin-top:8px;}
+#webmagn .webmagn_ProductXq ul li.text_2 p.fomr_con_2 font{color:#f42760;}
+#webmagn .webmagn_ProductXq ul li.text_1 .submit{width:30px;height:23px;border:1px solid #ddd;margin-left:5px;text-align:centerg;}
+#webmagn .webmagn_ProductXq ul li.text_3{height:25px;background:#f8f7f7;margin-top:10px;padding:10px 0px;line-height:25px;border:1px dotted #ddd;text-indent:5px;}
+#webmagn .webmagn_ProductXq ul li.text_3 .txt_l font.color{padding:4px 5px;border:1px solid #ddd;cursor:pointer;border-radius:5px;transition:.3s all;margin-right:5px;color:#999;font-size:12px;}
+#webmagn .webmagn_ProductXq ul li.text_3 .txt_l font.color:hover{color:#f42760;border:1px solid #f42760;border-radius:5px;transition:.3s all;}
+#webmagn .webmagn_ProductXq ul li.list{background:none;border:none;}
+#webmagn .webmagn_ProductXq ul li.list a{display:inline-block;float:left;margin-right:20px;}
+#webmagn .webmagn_ProductXq ul li.list a.text_left{width:119px;height:37px;background:url("../images/Webcar.png");}
+#webmagn .webmagn_ProductXq ul li.list a.text_right{width:89px;height:37px;background:url("../images/Websc_2.png");}
+/*webmagn结束*/
+/*!--IntroProduct开始--*/
+#IntroProduct{width:1200px;height:375px;margin:15px auto 0px;border:1px solid #ddd;border:1px solid #ddd;}
+#IntroProduct h3.Intro_title{line-height:45px;border-bottom:1px solid #ddd;text-indent:5px;font-size:16px;color:#f42760;}
+#IntroProduct ul li{width:230px;height:295px;border:1px solid #ddd;margin:15px 35px 15px 33px;box-shadow:0px 1px 4px #ddd;float:left;cursor:pointer;text-align:center;}
+#IntroProduct ul li p.text_con{font:14px/30px "Microsoft YaHei";text-align:center;}
+#IntroProduct ul li p.text_con_1{padding:0 10px;font:14px/30px "Microsoft YaHei";}
+#IntroProduct ul li p.text_con_1 span{float:left;color:#e81f56;font-weight:bold;}
+#IntroProduct ul li p.text_con_1 font{float:right;color:#333;}
+/*!--IntroProduct结束--*/
+/*!--ProductInfo开始--*/
+#ProductInfo{width:1200px;margin:30px auto 0px;}
+#ProductInfo ul.info_nav{width:1200px;height:50px;border-bottom:1px solid #f42760;}
+#ProductInfo ul.info_nav li{width:120px;height:50px;float:left;line-height:50px;text-align:center;font-size:14px;}
+#ProductInfo ul.info_nav li.active{height:49px;width:118px;background:#fff;border:1px solid #f42760;border-bottom:none;border-top:2px solid #f42760;border-radius:3px 3px 0px 0px;cursor:pointer;color:#333;}
+#ProductInfo .info_content{width:1200px;height:500px;margin-top:40px;position:relative;}
+#ProductInfo .info_content .info_content_con{width:1200px;height:500px;border:1px solid #f42760;position:absolute;top:0px;left:0px;display:none;}
+/*!--ProductInfo结束--*/
+/*!--dd_End开始--*/
+#dd_End{width:1160px;height:123px;margin:30px auto;padding:10px 20px;border:1px solid #ccc;font-size:14px;color:#333;}
+#dd_End p.magncon{line-height:30px;}
+#dd_End p.magncon font{color:#f42760;}
+#dd_End p.magncon input{width:100px;height:35px;background:#ff3366;float:right;color:#fff;margin-left:5px;border-radius:3px;cursor:pointer;font-weight:700;}
+#dd_End p.magncon_1{margin-top:50px;}
+#dd_End p.magncon_1 a{width:100px;height:35px;display:block;background:font-weight:700;background:#f3f3f3;text-align:center;line-height:35px;border:1px solid #ddd;color:#333;font-size:16px;border-radius:3px;}
+#dd_End p.magncon_1 a.go_left{float:left;}
+#dd_End p.magncon_1 a.go_left:hover{background:#ff3366;border:1px solid #ff3366;color:#fff;transition:.3s all;}
+#dd_End p.magncon_1 a.go_right{width:190px;height:35px;float:right;background:#e43e41;border:none;color:#fff;font-weight:700;}
+#dd_End p.magncon_1 a.go_right:hover{background:#ff3366;transition:.3s all;}
+/*!--dd_End结束--*/
+/*dd_List开始*/
+#dd_List{width:1200px;margin:30px auto 0px;overflow:hidden;}
+#dd_List .ticon{width:1200px;height:40px;border:1px solid #ddd;background:#eee;}
+#dd_List .ticon li{width:140px;line-height:40px;text-align:center;float:left;font-size:14px;}
+#dd_List .ticon li.first{width:220px;margin-right:80px;}
+#dd_List .Listcon{width:1200px;}
+#dd_List .Listcon ul{height:200px;border-bottom:1px dotted #ddd;}
+#dd_List .Listcon ul li{width:140px;float:left;line-height:200px;text-align:center;font-size:14px;}
+#dd_List .Listcon ul li.first{width:220px;margin-right:80px;position:relative;}
+#dd_List .Listcon ul li p.textcon{width:200px;height:28px;line-height:28px;position:absolute;bottom:40px;text-align:center;color:#333;padding:0 10px;}
+#dd_List .Listcon ul li input.incom{width:33px;border:1px solid #ddd;line-height:30px;text-align:center;}
+#dd_List .Listcon ul li a{font-size:14px;width:42px;display:block;margin:82px auto 0;border:1px solid #ddd;line-height:30px;border-radius:5px;}
+#dd_List .Listcon ul li a:hover{border:1px solid #f42760;color:#333;transition:.3s all;}
+/*dd_List结束*/
+/*!--dd_address开始--*/
+#dd_address{width:1200px;height:100px;background:#ddd;margin:30px auto 0;border:1px solid #ccc;border-radius:5px;}
+#dd_address ul{width:1000px;margin:30px auto 0px;}
+#dd_address ul li{width:400px;height:40px;float:left;}
+#dd_address ul li.fade{width:190px;;height:40px;}
+#dd_address ul li span{display:block;float:left;}
+#dd_address ul li span.btn{width:36px;height:36px;display:block;border:2px solid #666;background:#ddd;border-radius:20px;text-align:center;line-height:36px;}
+#dd_address ul li span.btn_active{border:2px solid #ff3399;background:#ffccff;color:#ff3399;}
+#dd_address ul li span.txt{height:36px;line-height:38px;margin-left:5px;font-size:14px;}
+#dd_address ul li span.txt_active{color:#ff3399;}
+#dd_address ul li span.line{width:294px;height:3px;background:#666;margin:18px 0 0 5px;}
+#dd_address ul li span.data{width:252px;height:3px;background:#666;margin:18px 0 0 5px;}
+#dd_address ul li span.line_active{background:-webkit-gradient(linear,left center,right center,from(#ff3399), to(#666))};
+/*!--dd_address开始--*/

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>register页面</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+  <link rel="stylesheet" type="text/css" href="style/web.css"/>
+ <link rel="stylesheet" type="text/css" href="style/dd_xq.css"/>
+ </head>
+ <body>
+	<!--Login开始-->
+	<div id="register">
+		<div class="Lg_Main">
+			<div class="Login">
+				<h3 class="txt"><a href="">登录</a>注册</h3>
+				<span>账号</span>
+				<p class="icon">
+					<input type="text" name="user" id="user" class="txt_con" onclick= value="用户名/邮箱/已验证手机" maxlength="15">
+					<font class="con_0">用户名是由数字、字母、下划线组成字母开头</font>
+				</p>
+				<span>密码</span>
+				<p class="edit">
+					<input type="password" name="pwd" id="pwd" class="txt_con" value="请输入密码" maxlength="15">
+					<span class="color"><font id="co1"></font><font id="co2"></font><font id="co3"></font></span>
+					<span class="color text"><font class="txt">弱</font><font class="txt">中</font><font class="txt">强</font></span>
+				</p>
+				<span>确认密码</span>
+				<p class="icon">
+					<input type="password" class="txt_con" id="qr_pwd" value="用户名/邮箱/已验证手机" maxlength="15">
+					<font class="con_1">两次输入的密码不一样</font>
+				</p>
+				<span>Email</span>
+				<p class="icon">
+					<input type="text" class="txt_con" id="email" value="请输入密码" maxlength="30">
+					<font class="con_2">请输入正确邮件地址</font>
+				</p>
+				<p class="centent_con"><input type="submit" id="tj" value="同意协议并注册"></p>
+				<p class="bottom"><a href="#" class="r_con">邮箱找回密码?<a><a href="#" class="l_con">忘记密码？</a></p>
+			</div>
+		</div>
+	</div>
+	<!--Login结束-->
+ <script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
+ <script src="js/index.js" type="text/javascript"></script>
+ </body>
+</html>

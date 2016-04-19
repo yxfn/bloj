@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Ecshop商城</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+  <link rel="stylesheet" type="text/css" href="style/web.css"/>
+ </head>
+ <body>
+ <!--网站头部开始-->
+  <div id="TopMain">
+   <!--网站头部图片开始-->
+	<div class="Top_img">
+		<a href="#" class="Top_a_img"><img src="images/adv.jpg" alt="父情节"/></a>
+		<img src="images/close.png" alt="close" class="imgm">
+	</div>
+   <!--网站头部图片结束-->
+   <!--网站头部LOGO,search,导购开始-->
+	<div class="Top_con">
+		<div class="Top_c_logo">
+			<a href="Top_c_l_img"><h1><img src="images/logo.png" alt="logo"></h1></a>
+		</div>
+		<div class="Top_c_search">
+			<form action="" method="">
+				<input type="text" id="search"/>
+				<label class="txt" for="search">请输入您的需求</label>
+				<input type="submit" id="btn" value=""/>
+				<div class="txtcon">
+					<ul class="txtshow">
+						<li class="txtmain"><a href="" class="txthover">夏季,海滩装</a></li>
+						<li class="txtmain"><a href="" class="txthover">情侣,海滩装</a></li>
+						<li class="txtmain"><a href="" class="txthover">朋友,海滩装</a></li>
+						<li class="txtmain"><a href="" class="txthover">牛仔,海滩装</a></li>
+						<li class="txtmain"><a href="" class="txthover">女装,海滩装</a></li>
+					</ul>
+				</div>
+			</form>
+		</div>
+		<div class="Top_c_user">
+			<!--用户登录注册
+				<a href="#"><font class="iconfont">&#xe60b;</font>登录</a>
+				<a href="#"><font class="iconfont">&#xe60e;</font>注册</a>
+				-->
+			<span class="Top_c_text">您好，wlm123, 欢迎您回来！ <a href="#" class="atext">用户中心</a>&nbsp | &nbsp<a href="#" class="atext">退出</a></span> <a href="#" class="color"><font class="iconfont">&#xe63e;</font> 加入购物车</a>
+		</div>
+	</div>
+   <!--网站头部LOGO,search,导购开始-->
+  </div>
+ <!--网站头部结束-->
+ <!--网站头部Logonav开始-->
+ <div id="Logonav">
+	<ul class="Logo_con_n">
+		<li class="Logo_con_first"><a href="#" class="Logo_con_t_l"><font class="iconfont">&#xe619; </font>全部商品分类</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">首页</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">节日礼物</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">生日礼物</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">蛋糕</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">商物礼物</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">个性定制</a></li>
+		<li class="Logo_con_t"><a href="#" class="Logo_con_t_l">鲜花</a></li>
+		<li class="last"></li>
+	</ul>
+ </div>
+  <!--网站头部Logonav结束-->
+
+   <!--webmain开始-->
+  <div id="webmain">
+	<!--webmain_title开始-->
+	<h3 class="webmain_title">当前位置: <a href="#">首页</a> > <a href="#">手机类型</a> > <a href="#">3G手机</a> > KD876</h3>
+	<!--webmain_title结束-->
+  </div>
+   <!--webmain结束-->
+   <!--webmagn开始-->
+  <div id="webmagn">
+	<div class="webmagn_con">
+		<div class="simg">
+			<img src="images/img/1_img_6.jpg" width="450px" height="450px"/>
+			<span class="move"></span>
+			<span class="shade"></span>
+		</div>
+		<div class="btn">
+			<img src="images/img/1_img_6.jpg" width="60px" height="60px" class="active" dataScr="images/img/1_img_6.jpg"/><!--这里是防止一开始就加载大图比较慢而做的-->
+			<img src="images/img/2_img_6.jpg" width="60px" height="60px" dataScr="images/img/2_img_6.jpg"/>
+			<img src="images/img/3_img_6.jpg" width="60px" height="60px" dataScr="images/img/3_img_6.jpg"/>
+		</div>
+		<div class="bimg">
+			<img src="images/magnimg.png"/>
+		</div>
+	</div>
+	<div class="webmagn_ProductXq">	
+		<ul>
+			<h3 class="text_1">深层水润+逆天美白，一套全部搞定，24小时水润透白！韩束墨菊深度</h3>
+			<li class="text_1"><p class="txt_l">商品货号：ECS000000</p><p class="txt_l">库存：30个</p></li>
+			<li class="text_1"><p class="txt_l">商品品牌：苹果</p><p class="txt_l">商品重量：30个</p></li>
+			<li class="text_1"><p class="txt_2">市场价格：市场价格：<span>￥1666元</span> 本店售价：<span>￥1388元</span> 注册用户：<span>￥1388元</span></p></li>
+			<li class="text_2">
+				<h3 class="text_2">购买商品达到以下数量区间时可享受的优惠价格：</h3>
+				<p><span>数量</span><span>优惠价格</span></p>
+				<p class="fomr_con"><span class="fomr_1">3</span><span>3600</span></p>
+				<p class="fomr_con com"><span class="fomr_1">5</span><span>5000</span></p>
+				<p class="fomr_con_2">商品总价格:<font>3600</font></p>
+			</li>
+			<li class="text_1"><p class="txt_l">购买数量<input type="text" class="submit"></p><p class="txt_l">商品重量：30个</p></li>
+			<li class="text_3"><p class="txt_l">颜色：<font class="color">红色</font><font class="color">黄色</font><font class="color">灰白</font></p></li>
+			<li class="text_3"><p class="txt_l">颜色：<font class="color">红色</font><font class="color">黄色</font><font class="color">灰白</font></p></li>
+			<li class="text_3 list"><a href="" class="text_left"></a><a href="" class="text_right"></a></li>
+		</ul>
+	</div>
+  </div>
+  <!--webmagn结束-->
+  <!--IntroProduct开始-->
+  <div id="IntroProduct">
+	<h3 class="Intro_title">推荐产品</h3>
+	<ul>
+		<li>
+			<a href="#"><img src="images/dg_img2.jpg" width="220px" height="220"></a>
+			<p class="text_con">创意节能小夜灯LED声控</p>
+			<p class="text_con_1"><span>￥19.9</span><font>389人购买</font></p>
+		</li>
+		<li>
+			<a href="#"><img src="images/dg_img1.jpg" width="220px" height="220"></a>
+			<p class="text_con">创意节能小夜灯LED声控</p>
+			<p class="text_con_1"><span>￥19.9</span><font>389人购买</font></p>
+		</li>
+		<li>
+			<a href="#"><img src="images/dg_img2.jpg" width="220px" height="220"></a>
+			<p class="text_con">创意节能小夜灯LED声控</p>
+			<p class="text_con_1"><span>￥19.9</span><font>389人购买</font></p>
+		</li>
+		<li>
+			<a href="#"><img src="images/dg_img3.jpg" width="220px" height="220"></a>
+			<p class="text_con">创意节能小夜灯LED声控</p>
+			<p class="text_con_1"><span>￥19.9</span><font>389人购买</font></p>
+		</li>
+	</ul>
+  </div>
+  <!--IntroProduct结束-->
+  <!--ProductInfo开始-->
+  <div id="ProductInfo">	
+	<ul class="info_nav">
+		<li class="active">商品描述</li>
+		<li>商品属性</li>
+		<li>用户评论</li>
+		<li>商品购买记录</li>
+	</ul>
+	<div class="info_content">
+		<div class="info_content_con">商品描述</div>
+		<div class="info_content_con">商品属性</div>
+		<div class="info_content_con">用户评论</div>
+		<div class="info_content_con">商品购买记录</div>
+	</div>
+  </div>
+  <!--ProductInfo结束-->
+  <div style="clear:both"></div>
+  <!--Footer开始-->
+  <div id="Footer">
+	<div class="f_con">
+		<ul>
+			<li><a href="#">每周上新</a></li>
+			<li><a href="#">100%正品保证</a></li>
+			<li><a href="#">顺丰配送，支持货到付款</a></li>
+			<li><a href="#">10条无条件退货</a></li>
+			<li class="no"><a href="#">7天价格保护</a></li>
+		</ul>
+	</div>
+	<div class="f_info">
+		<dl>
+			<dt><a href="#">关于我们</a></dt>
+			<dd><a href="#">诚聘英才</a></dd>
+			<dd><a href="#">品牌入驻</a></dd>
+			<dd><a href="#">友情链接</a></dd>
+		</dl>
+		<dl class="d_1">
+			<dt><a href="#">关于我们</a></dt>
+			<dd><a href="#">诚聘英才</a></dd>
+			<dd><a href="#">品牌入驻</a></dd>
+			<dd><a href="#">友情链接</a></dd>
+		</dl>
+		<dl class="d_2">
+			<dt><a href="#">关于我们</a></dt>
+			<dd><a href="#">诚聘英才</a></dd>
+			<dd><a href="#">品牌入驻</a></dd>
+			<dd><a href="#">友情链接</a></dd>
+		</dl>
+		<dl class="d_3">
+			<dt><a href="#">关于我们</a></dt>
+			<dd><a href="#">诚聘英才</a></dd>
+			<dd><a href="#">品牌入驻</a></dd>
+			<dd><a href="#">友情链接</a></dd>
+		</dl>
+		<dl class="d_4">
+			<dt><a href="#">客服在线</a></dt>
+			<dd><a href="#">4006-600-000</a></dd>
+			<dd><a href="#">品牌入驻</a></dd>
+			<dd><a href="#">友情链接</a></dd>
+		</dl>
+	</div>
+	<p class="f_bq">Copyright&nbsp©&nbsp2013-2015 www.tanzhouedu.com All Rights Reserved 版权所有：湖南潭州教育咨询有限公司 备案号：备13016338号	</p>
+  </div>
+  <!--Footer结束-->
+ <script src="js/jquery-1.12.1.min.js" type="text/javascript"></script>
+ <script src="js/index.js" type="text/javascript"></script>
+ </body>
+</html>

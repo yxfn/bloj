@@ -1,0 +1,103 @@
+/*内页推荐样式 webIntro */
+body,div,span,p,i,a,table,dl,dt,dd,ul,li,ol,img,h1,h2,h3,h4,td,tr,th{margin:0px;padding:0px;}
+img{border:0px;}
+li{list-style:none;}
+a{text-decoration:none;color:#000;font-size:12px;}
+input{outline:none;border:none;}
+body{font-family:"Microsoft YaHei";background:#fff;}
+/*goodsList开始*/
+.goodsList{width:1198px;border:1px solid #ccc;margin:30px auto 0px;overflow:hidden;}
+.goodsList h3.g_list{height:35px;font:14px/35px "Microsoft YaHei";background:#ddd;padding:0 15px;}
+.goodsList .g_list a{float:right;font-size:14px;}
+.goodsList .g_list a:hover{color:#f42760;transition:.2s all;}
+.goodsList table{border:1px solid #ccc;width:98%; margin:15px auto;border-collapse:collapse;/*单线*/}
+.goodsList table tr th{border:1px solid #ddd;line-height:35px;font-size:14px;}
+.goodsList table tr td{border:1px solid #ddd;line-height:35px;font-size:12px;text-align:center;}
+.goodsList table tr td.ti{width:250px;}
+.goodsList table tr td a{color:#666;}
+.goodsList table tr td.end span{color:#f42760;}
+.goodsList table tr td.end {line-height:50px;font-size:16px;}
+/*goodsList结束*/
+/*UserInfo开始*/
+.goodsList table tr td.title{background:#eee;font-weight:bold;}
+/*UserInfo结束*/
+/*!--allMoney商品列表开始--*/
+#allMoney table{border:0px;}
+#allMoney table tr td {text-align:right; border:0px;}
+#allMoney table tr td span{color:red; font-size:14px; padding:0px 10px;}
+#allMoney table tr td input.tj{width:100px;height:38px; text-align:center; color:#fff; background:#f42760;font-size:14px;font-weight:bold;border-radius:2px;cursor:pointer;}	
+#allMoney table tr td input.tj:hover{background:#e70544;transition:.2s all;}
+/*!--allMoney商品列表结束--*/
+/*!--用户注册和登录开始--*/
+#LoginAndRegister{width:1000px;height:520px;margin:30px auto 0;background:rgba(255,255,255,0.8);box-shadow:0px 0px 10px #666;padding-top:80px;border-radius:10px;}
+#LoginAndRegister .Login_nav{width:800px;height:60px;margin:0px auto 0px;}
+#LoginAndRegister .Login_nav ul li{width:400px;font:16px/60px "Microsoft YaHei";float:left;text-align:center;border-bottom:2px solid #ddd;color:#ccc;cursor:pointer;font-weight:bold;}
+#LoginAndRegister .Login_nav ul li.active{border-bottom:2px solid #50a8d8;color:#222;}
+#LoginAndRegister .Login_content{width:800px;height:420px;margin:30px auto 0px;position:relative;}
+#LoginAndRegister .Login_content .com{width:600px;height:420px;position:absolute;top:0px;left:100px;display:none;}
+#LoginAndRegister .Login_content .com p{width:480px;margin:20px auto 0px;line-height:40px;color:#666;font-size:14px;overflow:hidden;}
+#LoginAndRegister .Login_content .com p input.inputBg{width:300px;height:38px;line-height:38px;border:1px solid #ddd;border-radius:3px;text-indent:5px;}
+#LoginAndRegister .Login_content .com p.con_r{text-indent:50px;}
+#LoginAndRegister .Login_content .com p input.con{width:150px;line-height:35px;float:left;margin-left:55px;border-radius:3px;color:#fff;font-size:14px;font-weight:both;cursor:pointer;}
+#LoginAndRegister .Login_content .com p input.btn_blue{background:#ff6699;transition:.3s all;}
+#LoginAndRegister .Login_content .com p input.btn_blue:hover{background:#f42760;transition:.3s all;}
+#LoginAndRegister .Login_content .com p input.btn_blue_2{background:#ff9900;transition:.3s all;}
+#LoginAndRegister .Login_content .com p input.btn_blue_2:hover{background:#ea8d02;transition:.3s all;}
+#LoginAndRegister .Login_content .com p.bottom{line-height:13px;}
+#LoginAndRegister .Login_content .com p a{margin:0 30px 0 80px;color:#36A2DC;}
+#LoginAndRegister .Login_content .Login_register p{width:645px;float:right;}
+#LoginAndRegister .Login_content .Login_register p.com_left{margin-right:42px;}
+#LoginAndRegister .Login_content .Login_register p.con_left{margin-right:14px;}
+#LoginAndRegister .Login_content .Login_register p input.btn_blue{width:150px;background:#ff6699;font-weight:700;}
+#LoginAndRegister .Login_content .Login_register p input.btn_blue:hover{background:#f42760;transition:.3s all;}
+/*!--用户注册和登录结束--*/
+/*!--LgAndReg收货人信息表开始--*/
+#LgAndReg{width:1200px;height:600px;margin:30px auto 0px;border-radius:5px;background:rgba(255,255,255,0.8);box-shadow:0px 0px 5px #666;}
+#LgAndReg h3.h_list{height:50px;background:#ddd;line-height:50px;text-indent:5px;color:#333;font-size:16px;}
+#LgAndReg table{width:90%;line-height:50px;margin:30px auto 0px;border-collapse:collapse;}
+#LgAndReg table tr td{height:45px;color:#666;border-bottom:1px solid #ddd;padding:15px 0px;font-size:14px;}
+#LgAndReg table tr td select{width:150px;height:32px;margin-left:5px;border:1px solid #ddd;border-radius:3px;}
+#LgAndReg table tr td.ti{text-align:right;padding-right:20px;}
+#LgAndReg table tr td.center{margin:0 auto;}
+#LgAndReg table tr td input.bnt_blue_2{width:300px;height:35px;background:#ff6666;margin:0 auto;display:block;color:#fff;font-weight:700;border-radius:5px;cursor:pointer;}
+#LgAndReg table tr td input.bnt_blue_2:hover{background:#f42760;transition:.3s all;}
+#LgAndReg table tr td input#txt{width:248px;height:38px;border:1px solid #ddd;border-radius:3px;text-indent:5px;}
+/*!--LgAndReg收货人信息表开始--*/
+/*!--Login开始--*/
+body,html{height:100%;}
+#Login{width:100%;height:100%;background:#fbe1d3 url("../images/login_bg.jpg") center top no-repeat;}
+.Lg_Main{width:1000px;margin:0px auto 0px;padding-top:100px;}
+.Lg_Main .Login{width:325px;height:460px;float:right;background:#fff;box-shadow:0px 0px 6px #666;padding:20px 50px;border-radius:10px;}
+.Lg_Main .Login h3{line-height:35px;font-size:24px;color:#333;margin-bottom:40px;font-weight:normal;}
+.Lg_Main .Login h3 a{float:right;font-size:14px;color:#02b1cb;}
+.Lg_Main .Login span{line-height:35px;font-size:14px;}
+.Lg_Main .Login input.txt_con{width:300px;height:35px;line-height:35px;;border:1px solid #ddd;color:#ccc;text-indent:5px;border-radius:3px;}
+.Lg_Main .Login p{margin-bottom:26px;}
+.Lg_Main .Login p a{font-size:14px;color:#02b1cb;}
+.Lg_Main .Login p a.r_con{float:right;}
+.Lg_Main .Login p.right_con{height:20px;text-align:right;}
+.Lg_Main .Login p input.txt_check{margin-top:4px;color:#333;}
+.Lg_Main .Login p.right_con label{font-size:12px;position:absolute;top:4px;right:0px;}
+.Lg_Main .Login p.centent_con{text-align:center;margin-top:30px;}
+.Lg_Main .Login p.centent_con input#tj{width:300px;height:45px;background:#ed145b;border-radius:5px;color:#fff;font-size:14px;cursor:pointer;font-weight:bold;}
+.Lg_Main .Login p.centent_con input#tj:hover{background:#ff3399;transition:.3s all;}
+/*!--Login登录--*/	
+#register{width:100%;height:100%;background:#fbe1d3 url("../images/login_bg.jpg") center top no-repeat;}
+#register .Lg_Main{width:1000px;margin:0px auto 0px;padding-top:30px;}
+#register .Lg_Main .Login{width:325px;height:550px;float:right;background:#fff;box-shadow:0px 0px 6px #666;padding:20px 50px;border-radius:10px;}
+#register .Lg_Main .Login h3{line-height:35px;font-size:24px;color:#333;margin-bottom:35px;font-weight:normal;}
+#register .Lg_Main .Login span{line-height:32px;font-size:14px;}
+#register .Lg_Main .Login p{margin-bottom:20px;}
+#register .Lg_Main .Login p.edit{height:60px;}
+#register .Lg_Main .Login p.edit span.color{width:92%;height:20px;display:block;margin-top:5px;}
+#register .Lg_Main .Login p.edit span.color font{width:60px;height:5px;display:block;background:#ddd;margin:3px 0 0 32px;float:left;font-size:12px;color:#ddd;}
+#register .Lg_Main .Login p.edit span.color font.red{background:red;}
+#register .Lg_Main .Login p.edit span.color font.blue{background:#02b1cb;}
+#register .Lg_Main .Login p.edit span.color font.yellow{background:yellow;}
+#register .Lg_Main .Login p.edit span.text{height:10px;}
+#register .Lg_Main .Login p.edit span.text font.txt{background:none;text-align:center;line-height:0px;color:#666;}
+#register .Lg_Main .Login p.icon{position:relative;}
+#register .Lg_Main .Login p.icon font{position:absolute;top:46px;left:35px;font-size:12px;color:#ddd;}
+#register .Lg_Main .Login p.icon font.con_0{position:absolute;top:46px;left:35px;font-size:12px;}
+#register .Lg_Main .Login p.icon font.con_1{position:absolute;top:46px;left:35px;font-size:12px;}
+#register .Lg_Main .Login p.icon font.con_2{position:absolute;top:46px;left:35px;font-size:12px;}
