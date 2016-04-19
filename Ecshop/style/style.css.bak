@@ -22,6 +22,7 @@ body{font-family:"Microsoft YaHei";background:#fff;}
 /*!--网站头部图片开始--*/
 #TopMain {position:relative;z-index:15;}
 #TopMain .Top_img{width:100%;height:100px;background:url("../images/advbg.png"); text-align:center;}
+#TopMain .Top_img a.Top_a_img{width:1000px;;height:100px;background:#f00;}
 #TopMain .Top_img .imgm{position:absolute;right:0px;top:0px;cursor:pointer;}
 /*!--网站头部图片结束--*/
 /*网站头部LOGO,search,导购开始*/
@@ -281,22 +282,3 @@ li.Logo_con_first .menu ol.m_con li.hover .moreleft{display:block;}
 #Footer .f_info dl dd a{color:#fff;font-size:12px;}
 #Footer p.f_bq{width:1200px;margin:0 auto;font:12px/50px "Microsoft YaHei";text-align:center;color:#fff;}
 /*!--Footer结束--*/
-/*!--用户注册和登录开始--*/
-#LoginAndRegister{width:1000px;height:520px;margin:30px auto 0;background:rgba(255,255,255,0.8);box-shadow:0px 0px 10px #666;padding-top:80px;border-radius:10px;}
-#LoginAndRegister .Login_nav{width:800px;height:60px;margin:0px auto 0px;}
-#LoginAndRegister .Login_nav ul li{width:400px;font:16px/60px "Microsoft YaHei";float:left;text-align:center;border-bottom:2px solid #ddd;color:#ccc;cursor:pointer;font-weight:bold;}
-#LoginAndRegister .Login_nav ul li.active{border-bottom:2px solid #50a8d8;color:#222;}
-#LoginAndRegister .Login_content{width:800px;height:420px;margin:30px auto 0px;position:relative;}
-#LoginAndRegister .Login_content .com{width:600px;height:420px;position:absolute;top:0px;left:100px;display:none;}
-#LoginAndRegister .Login_content .com p{width:480px;margin:20px auto 0px;line-height:40px;color:#666;font-size:14px;overflow:hidden;}
-#LoginAndRegister .Login_content .com p input.inputBg{width:300px;height:38px;line-height:38px;border:1px solid #ddd;border-radius:3px;text-indent:5px;}
-#LoginAndRegister .Login_content .com p.con_r{text-indent:50px;}
-#LoginAndRegister .Login_content .com p input.con{width:150px;line-height:35px;float:left;margin-left:55px;border-radius:3px;color:#fff;font-size:14px;font-weight:both;cursor:pointer;}
-#LoginAndRegister .Login_content .com p input.btn_blue{background:#ff6699;}
-#LoginAndRegister .Login_content .com p input.btn_blue_2{background:#ff9900;}
-#LoginAndRegister .Login_content .com p.bottom{line-height:13px;}
-#LoginAndRegister .Login_content .com p a{margin:0 30px 0 80px;color:#36A2DC;}
-#LoginAndRegister .Login_content .Login_register p{width:550px;float:right;}
-#LoginAndRegister .Login_content .Login_register p.com_left{margin-right:42px;}
-#LoginAndRegister .Login_content .Login_register p input.btn_blue{width:150px;background:#ff6699;font-weight:700;}
-/*!--用户注册和登录结束--*/
