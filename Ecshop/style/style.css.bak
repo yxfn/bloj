@@ -22,7 +22,7 @@ body{font-family:"Microsoft YaHei";background:#fff;}
 /*!--网站头部图片开始--*/
 #TopMain {position:relative;z-index:15;}
 #TopMain .Top_img{width:100%;height:100px;background:url("../images/advbg.png"); text-align:center;}
-#TopMain .Top_img a.Top_a_img{width:1000px;;height:100px;background:#f00;}
+#TopMain .Top_img a.Top_a_img{display:block;width:1000px;height:100px;background:url("../images/adv.jpg");}
 #TopMain .Top_img .imgm{position:absolute;right:0px;top:0px;cursor:pointer;}
 /*!--网站头部图片结束--*/
 /*网站头部LOGO,search,导购开始*/
